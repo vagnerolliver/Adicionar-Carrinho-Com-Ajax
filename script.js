@@ -1,9 +1,9 @@
 ** incluir biblioteca jquery.js
 ** ter noções básicas de objetos
 
-Nossa api de carrinho esta configurada para  retonar um objeto com os items que estão no carrinho cada vez que um item for adicionado.
+Nossa api de carrinho esta configurada para  retonar um objeto com os items do carrinho cada vez que um item for adicionado.
 
-Os dados do objeto são os mesmo encontrados no loop de {% cartitemns %}.
+importante: os dados desse objeto são os mesmo encontrados no loop de {% cartitemns %}.
 
 Uma das formas de adicionar os items na aba de carrinho é toda a vez que for enviado um item  por ajax com  $post o evento no sucess 
 recebe o objeto com os items
